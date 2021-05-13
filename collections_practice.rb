@@ -26,6 +26,7 @@ def kesha_maker(array)
       new_array << word_array.join
   end
   new_array
+<<<<<<< HEAD
 end
 
 def find_a(array)
@@ -40,4 +41,6 @@ def add_s(array)
   array.each_with_index.collect do |element, index| 
     index == 1? element : element + "s"
   end
+=======
+>>>>>>> cd7717902edd6ee043347f872284deba56bfc6e1
 end
